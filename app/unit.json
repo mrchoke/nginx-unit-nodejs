@@ -1,0 +1,16 @@
+{
+    "listeners": {
+        "*:3000": {
+	"pass": "applications/node"
+        }
+    },
+
+    "applications": {
+        "node": {
+            "type": "external",
+            "processes": 5,
+            "working_directory": "/srv/app",
+	    "executable": "index.js"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "nginx-nodejs",
+  "version": "1.8.0",
+  "description": "Demo app for Nginx Unit NodeJs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrchoke@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrchoke/nginx-unit-nodejs.git"
+  },
+  "keywords": [
+    "nginx",
+    "unit",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/mrchoke/nginx-unit-nodejs/issues"
+  },
+  "homepage": "https://github.com/mrchoke/nginx-unit-nodejs#readme"
+}
