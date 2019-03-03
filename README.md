@@ -7,7 +7,7 @@
 # USE
 
 ```
-docker run -it -d  --name unit -p 3000:3000  mrchoke/unit:1.8.0-nodejs-11.10.1
+docker run -it -d  --name unit -p 3000:3000  mrchoke/unit:1.8.0-nodejs-11.10.1.2
 
 ```
 
@@ -22,7 +22,7 @@ cd nginx-unit-nodejs
 edit your app
 
 ```
-docker run -it -d  -v $PWD/app:/srv/app  --name unit -p 3000:3000 mrchoke/unit:1.8.0-nodejs-11.10.1
+docker run -it -d  -v $PWD/app:/srv/app  --name unit -p 3000:3000 mrchoke/unit:1.8.0-nodejs-11.10.1.2
 
 ```
 
